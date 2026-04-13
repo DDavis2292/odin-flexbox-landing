@@ -1,5 +1,12 @@
       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&display=swap');
-* {
+
+    :root {
+        --orange-accent: #b24225;
+        --cream-accent: #fee3c9;
+        --teal-accent: #006664;
+    }
+
+      * {
     margin: 0;
     padding: 0;
 }
@@ -52,7 +59,7 @@ ul, .hero-text > p {
 }
 
 .hero-text > button {
-    background-color: #c34100;
+    background-color: var(--orange-accent);
     border: none;
     border-radius: 5px;
     margin-top: 8px;
@@ -112,7 +119,7 @@ ul, .hero-text > p {
 .links img {
     width: 100%;
     display: block;
-    border: 2px solid #c34100;
+    border: 2px solid var(--orange-accent);
     border-radius: 12px;
 }
 
@@ -139,7 +146,7 @@ ul, .hero-text > p {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;   
+    background-color: var(--cream-accent);   
     padding: 75px 150px;
     gap: 20px;
 }
@@ -168,7 +175,7 @@ ul, .hero-text > p {
 
 .ad {
     display: flex;
-    background-color: #c34100;
+    background-color: var(--teal-accent);
     border-radius: 8px;
     padding: 30px 60px;
     gap: 100px;
@@ -178,7 +185,7 @@ ul, .hero-text > p {
 }
 
 .ad button {
-    background-color: #1F2937;
+    background-color: var(--orange-accent);
     border: 1.5px solid white;
     border-radius: 5px;
     padding: 7px 15px;
