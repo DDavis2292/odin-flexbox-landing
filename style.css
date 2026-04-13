@@ -112,7 +112,7 @@ ul, .hero-text > p {
 .links img {
     width: 100%;
     display: block;
-    border: 2px solid #3882F6;
+    border: 2px solid #c34100;
     border-radius: 12px;
 }
 
@@ -168,7 +168,7 @@ ul, .hero-text > p {
 
 .ad {
     display: flex;
-    background-color: #3882F6;
+    background-color: #c34100;
     border-radius: 8px;
     padding: 30px 60px;
     gap: 100px;
@@ -178,7 +178,7 @@ ul, .hero-text > p {
 }
 
 .ad button {
-    background-color: #3882F6;
+    background-color: #1F2937;
     border: 1.5px solid white;
     border-radius: 5px;
     padding: 7px 15px;
