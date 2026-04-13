@@ -6,7 +6,6 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 50px;
     font-family: Roboto, sans-serif;
 
 }
@@ -29,8 +28,9 @@ header.h1 {
 }
 
 nav {
-    padding-top: 10px;
+    padding: 5px;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -65,7 +65,7 @@ ul, .hero-text > p {
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    gap: 10px;
+    gap: 50px;
     
 }
 
@@ -137,4 +137,64 @@ ul, .hero-text > p {
 }
 
 /* QUOTE SECTION */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;   
+    padding: 75px 150px;
+    gap: 20px;
+}
+
+.quote-text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    padding-right: 10px;
+}
+
+/* AD SECTION */
+
+.ad-section {
+    
+    display: flex;
+    padding: 50px 100px;
+    justify-content: center;
+
+
+}
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 60px;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ad button {
+    background-color: #3882F6;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+    color:#E5E7EB
+}
+
 
